@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from requests import post
+import requests
 from termcolor import colored
 
 #Constants:
@@ -14,11 +14,8 @@ class Requester:
 #Displaying Module
 class Display:
 
-    def display_message(sender, sender_colors, message_body):
-        #Format username
-        #Format message_body
-        #Format message_body
-        pass
+    def display_message(sender, sender_color, message_body):
+        print(sender)
 
     def display_flavor_text():
         pass
@@ -27,9 +24,6 @@ class Display:
         
         pass
 
-    def color_text(text_body, color):
-        '''Returns text_body but with color!'''
-        pass
 
 #Main method
 def main():
